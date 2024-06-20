@@ -26,8 +26,8 @@ def play_again():
     elif again == 'n':
         exit()
     else:
-        print('Unknown input exiting program')
-        exit()
+        print('Unknown input')
+        play_again()
 
 def main():
     print('Welcome to palindromer. input a string below and the program will assess if it is a palindrome')
